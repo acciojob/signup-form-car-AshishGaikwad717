@@ -10,17 +10,18 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form>
-		Name:<input type="text" required id="name" placeholder="Name"><br>
-		Email:<input type="email" required id="email" placeholder="Email"><br>
-		Gender: Male<input type="radio" required id="gender_m"> Female<input type="radio" required id="gender_f"><br>
-		Car Brands:<input type="select" required id="cars" placeholder="--Please choose an option--"><br>
-		Age:<input type="number" required id="age" placeholder="Age"><br>
-		DOB:<input type="date" required id="dob"><br>
+	<h1>Signup Form Car</h1>
+	<form method="post">
+		Name:<input type="text" id="name" placeholder="Name" required><br>
+		Email:<input type="email" id="email" placeholder="Email" required><br>
+		Gender: Male<input type="radio" id="gender_m" name="gender" required>Female<input type="radio" required name="gender" id="gender_f"><br> 
+		Car Brands:<input type="select" id="cars" placeholder="--Please choose an option--" required><br>
+		Age:<input type="number" id="age" placeholder="Age" required><br>
+		DOB:<input type="date" id="dob" required><br>
 		Phone Number:<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br>
 		Password:<input type="password" required id="password" placeholder="Password"><br>
 		I agree to the TOS:<input type="checkbox" required id="tos"><br>
-		<input type="submit">
+		<button type="submit">Submit</button>
 	</form>
 	
 </body>
